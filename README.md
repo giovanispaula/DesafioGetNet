@@ -6,15 +6,15 @@ Esta projeto tem como objetivo atender ao desafio técnico solicitado pela empre
 
 Para executar o projeto, será necessário instalar os seguintes programas:
 
- - [**OpenJDK-11-Jdk**] (#https://www.oracle.com/java/technologies/downloads/#java11)
- - [**IDE IntelliJ**] para desenvolvimento do projeto (#https://www.jetbrains.com/idea/download/#section=linux)
- - [**Maven**] para realizar o build do projeto Java (#https://maven.apache.org/install.html)
+ - [**OpenJDK-11-Jdk**] (https://www.oracle.com/java/technologies/downloads/#java11)
+ - [**IDE IntelliJ**] para desenvolvimento do projeto (https://www.jetbrains.com/idea/download/#section=linux)
+ - [**Maven**] para realizar o build do projeto Java (https://maven.apache.org/install.html)
  
 ### Construção do projeto
 
 + Para realizar o Build do projeto, realizar o comando abaixo na pasta /GetNet/UserGetNet:
   
-  + |` mvn clean install `|
+  + ` mvn clean install `
   
   O comando irá baixar todas as dependências do projeto e criar um diretório target com os artefatos construídos, que incluem o arquivo jar do projeto. Além  disso, serão executados os testes unitários, e se algum falhar, o Maven exibirá essa informação no console.
  	
@@ -23,17 +23,17 @@ Para executar o projeto, será necessário instalar os seguintes programas:
  
  + Pelo terminal, acessar a pasta GetNet/UserGetNet/target e digitar o seguinte comando:
  
-    + |` java -jar UserGetNet-0.0.1-SNAPSHOT.jar `|
+    + ` java -jar UserGetNet-0.0.1-SNAPSHOT.jar `
  		
  + Será disponibilizado a porta 8080 para a Api, que pode ser acessada pelo Navegador através do endereço:
  	
-    + |` localhost:8080/ `|
+    + ` localhost:8080/ `
   
 ### Publicação
   
 + A Api está publicada em Cloud AWS; Através da url abaixo é possível verificar seu funcionamento:
   
-  + |` http://ec2-54-211-213-172.compute-1.amazonaws.com:8080/swagger-ui/index.html#/Usu%C3%A1rios%20Getnet `|
+  + ` http://ec2-54-211-213-172.compute-1.amazonaws.com:8080/swagger-ui/index.html#/Usu%C3%A1rios%20Getnet `
   
 # Recursos disponíveis para acesso via API:
 
@@ -146,23 +146,23 @@ O password deve seguir os parâmetros conforme listado no início deste document
 
 + O arquivo referente ao desenho da API está disponível na pasta:
   
-  + |` /GetNet/UserGetNet/UsersGetNet_OAS.yaml `|
+  + ` /GetNet/UserGetNet/UsersGetNet_OAS.yaml `
 
 # Collection Postman
 
 + O arquivo JSON para importação no Postman está disponível na pasta:
   
-  + |` /GetNet/UserGetNet/Users GetNet.postman_collection.json `|
+  + ` /GetNet/UserGetNet/Users GetNet.postman_collection.json `
 
 # Dockerfile/Docker compose
 
 + Os arquivos Dockerfile e Docker-Compose estão disposíveis nos seguintes caminhos:
   
-  + |` /GetNet/UserGetNet/Dockerfile `|
-  + |` /GetNet/UserGetNet/docker-compose.yml `|
+  + ` /GetNet/UserGetNet/Dockerfile `
+  + ` /GetNet/UserGetNet/docker-compose.yml `
 
 # API em Cloud (AWS)
   
 Esta API está disponível na AWS através do endereço abaixo:
   
-  + |` http://ec2-54-211-213-172.compute-1.amazonaws.com:8080/swagger-ui/ `|
+  + ` http://ec2-54-211-213-172.compute-1.amazonaws.com:8080/swagger-ui/ `
