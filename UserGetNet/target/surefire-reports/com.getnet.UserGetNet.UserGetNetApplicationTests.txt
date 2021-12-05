@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.getnet.UserGetNet.UserGetNetApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.678 s - in com.getnet.UserGetNet.UserGetNetApplicationTests
