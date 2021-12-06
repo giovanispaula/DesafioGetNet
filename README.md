@@ -2,6 +2,8 @@
 
 Esta projeto tem como objetivo atender ao desafio técnico solicitado pela empresa GetNet e disponibiliza uma API de cadastro de usuários.
 
++ ` http://ec2-54-211-213-172.compute-1.amazonaws.com:8080/swagger-ui/
+
 # Requisitos
 
 Para executar o projeto, será necessário instalar os seguintes programas:
@@ -174,6 +176,8 @@ O password deve seguir os parâmetros conforme listado no início deste document
 Esta API está disponível na AWS através do endereço abaixo:
   
   + ` http://ec2-54-211-213-172.compute-1.amazonaws.com:8080/swagger-ui/
+
+Cloud EC2 da AWS, do tipo t2.micro, rodando ubuntu 20.04.
 
 # Teste de Carga (Load Test)
 
