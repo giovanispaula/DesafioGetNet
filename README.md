@@ -9,6 +9,7 @@ Para executar o projeto, será necessário instalar os seguintes programas:
  - [**OpenJDK-11-Jdk**] (https://www.oracle.com/java/technologies/downloads/#java11)
  - [**IDE IntelliJ**] para desenvolvimento do projeto (https://www.jetbrains.com/idea/download/#section=linux)
  - [**Maven**] para realizar o build do projeto Java (https://maven.apache.org/install.html)
+ - [**JMeter**] para a realização de testes de carga (Load Tests) (https://jmeter.apache.org/download_jmeter.cgi)
  
 ### Construção do projeto
 
@@ -142,6 +143,13 @@ O password deve seguir os parâmetros conforme listado no início deste document
 | `404` | Registro pesquisado não encontrado (Not found).|
  
  
+# Teste unitários
+
++ Os teste unitários podem ser acessados pelo IntelliJ, no caminho:
+
+  + /UserGetNet/src/test/java/com.getnet.UserGetNet/controller/UserControllerTest
+ 
+ 
 # Desenho da API (OAS)
 
 + O arquivo referente ao desenho da API está disponível na pasta:
@@ -165,4 +173,12 @@ O password deve seguir os parâmetros conforme listado no início deste document
   
 Esta API está disponível na AWS através do endereço abaixo:
   
-  + ` http://ec2-54-211-213-172.compute-1.amazonaws.com:8080/swagger-ui/ `
+  + ` http://ec2-54-211-213-172.compute-1.amazonaws.com:8080/swagger-ui/
+
+# Teste de Carga (Load Test)
+
+O teste de carga foi realizado no servidor AWS acima, utilizando o programa JMeter; Os arquivos de configuração e resultados podem ser encontrados em:
+
+  +  ` /GetNet/UserGetNet/Load Test - Users GetNet.jmx (Configuração)
+  +  ` /GetNet/UserGetNet/LoadTestResults.csv (Resultados)
+
